@@ -55,8 +55,20 @@ void Lista::pop_front(){
 	if(head==NULL){
 		cout<<"la lista esta vacia"<<endl; 
 	}
+	else{
+		
+		Nodo* destructor = head;
+        head = head->next;
+
+        if (head != NULL)
+		 {
+            head->prev = NULL;
+        }
+        delete destructor;
+		 
+	}
+	}
 	
-}
 
 	
     
