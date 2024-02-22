@@ -33,9 +33,10 @@ void Lista::push_front(int data){
             nuevoNodo->next = head;
             head->prev = nuevoNodo;
             head = nuevoNodo;
-            
         }     
     }
+    
+    
 	
 	
 

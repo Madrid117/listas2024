@@ -12,6 +12,7 @@ int main(){
     
 	
 	l.push_front(34);
+	l.push_front(12);
 	
 	l.mostrarLista();
 	

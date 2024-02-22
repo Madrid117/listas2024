@@ -99,7 +99,7 @@ void Lista::pop_front(){
 		 
 	}
 	
-	
+//hola	
 	
 }
 
