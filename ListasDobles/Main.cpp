@@ -11,10 +11,10 @@ int main(){
 	
     
 	l.push_front(34);
-	l.pop_front();
 	l.push_front(12);
 	l.push_front(4);
 	l.push_back(5);
+	l.pop_back();
 	l.mostrarLista();
 	
 	return 0;
